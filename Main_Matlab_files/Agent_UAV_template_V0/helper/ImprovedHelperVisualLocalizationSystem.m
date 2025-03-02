@@ -1,10 +1,10 @@
-%HelperVisualLocalizationSystem Implements the visual localization algorithm
+%ImprovedHelperVisualLocalizationSystem Implements the visual localization algorithm
 %
 %   This is an example helper class that is subject to change or removal
 %   in future releases.
 
 %   Copyright 2021-2022 The MathWorks, Inc.
-classdef Modif_of_HelperVisualLocalizationSystem < matlab.System
+classdef ImprovedHelperVisualLocalizationSystem < matlab.System
 
     % Public, non-tunable properties
     properties(Nontunable)
@@ -320,7 +320,7 @@ classdef Modif_of_HelperVisualLocalizationSystem < matlab.System
 
         function icon = getIconImpl(~)
             % Define icon for System block
-            icon = ["Helper", "Visual", "Localization"];
+            icon = ["Improved", "Helper", "Visual", "Localization"];
         end
         
         function [name1] = getInputNamesImpl(~) % ,name2,name3]
