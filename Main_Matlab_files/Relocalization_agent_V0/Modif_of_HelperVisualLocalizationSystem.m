@@ -125,6 +125,10 @@ classdef Modif_of_HelperVisualLocalizationSystem < matlab.System
 
         function [Pose,Rotation, LocalRelocFail, GlobalRelocFail] = stepImpl(obj, image)  %, location, orientation)
             % Skip invalid images
+            Pose = zeros(1,3);
+            Rotation = eye(3);
+            LocalRelocFail = 1;
+            GlobalRelocFail = 1;
             if all(~image)
                 
 
@@ -465,4 +469,3 @@ classdef Modif_of_HelperVisualLocalizationSystem < matlab.System
         end
     end
 end
-
