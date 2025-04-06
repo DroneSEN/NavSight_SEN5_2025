@@ -1,0 +1,1 @@
+Même que le scénario 6 mais avec une injection d'offset sous forme de sinusoide (ça fait un cercle autour de la trajectoire de 6)

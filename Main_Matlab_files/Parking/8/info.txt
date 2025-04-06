@@ -1,0 +1,9 @@
+Dataset de drone généré à partir des données IMU et vidéo
+------------------------------------------------------
+Date de création: 01-Apr-2025 09:16:23
+Nombre d'échantillons IMU: 4247
+Nombre d'images: 1278
+Fréquence d'échantillonnage IMU: 99.63 Hz
+Fréquence des images: 29.98 Hz
+Offset appliqué à l'IMU: -1.90 secondes
+Taille des images: 480 x 848 pixels
