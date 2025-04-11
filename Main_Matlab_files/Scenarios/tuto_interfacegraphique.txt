@@ -1,0 +1,2 @@
+Lancer le fichier waypoints toolbox dans le dossier outilsgraphique_waypoint
+et se laisser guider par loutil. 
